@@ -137,13 +137,13 @@ Once you have copied the password, paste it into Cmder terminal and press enter.
 
 Paste the code below into the terminal then press enter (it will just go to a new line)
 
-`wget -q https://github.com/ABPnetwork/ABP/releases/`
+`wget -q https://github.com/ABPnetwork/masternode-script/blob/master/abpnetwork_install.sh`
 ***
 
 ***Step 8***
 * Paste the code below into the putty terminal then press enter
 
-`bash ABP Network_install.sh`
+`bash abpnetwork_install.sh`
 
 ![Example-Bash](https://i.imgur.com/Ktythm3.png)
 
@@ -168,11 +168,11 @@ Paste the code below into the terminal then press enter (it will just go to a ne
 ## Section D: Preparing the Local wallet
 
 ***Step 1***
-* Download and install the NextON wallet [here](https://github.com/ABPnetwork/ABP/releases)
+* Download and install the ABP wallet [here](https://github.com/ABPnetwork/ABP/releases)
 ***
 
 ***Step 2***
-* Send EXACLY 1000 ABP to a receive address within your wallet.
+* Send EXACLY 1,000 ABP to a receive address within your wallet.
 ***
 
 ***Step 3***
