@@ -158,3 +158,79 @@ Paste the code below into the terminal then press enter (it will just go to a ne
 
 ![Example-installing](https://i.imgur.com/Ps5UPU8.png)
 ***
+
+***Step 11***
+* You will now see all of the relavant information for your server.
+* Keep this terminal open as we will need the info for the wallet setup.
+![Example-installing](https://i.imgur.com/uW9O9qa.png)
+***
+
+## Section D: Preparing the Local wallet
+
+***Step 1***
+* Download and install the NextON wallet [here](https://github.com/ABPnetwork/ABP/releases)
+***
+
+***Step 2***
+* Send EXACLY 1000 ABP to a receive address within your wallet.
+***
+
+***Step 3***
+* Create a text document to temporarily store information that you will need. 
+***
+
+***step 4***
+* Go to the console within the wallet 
+
+![Example-console](https://i.imgur.com/brrqZvZ.png)
+***
+
+***Step 5***
+* Type the command below and press enter 
+
+`masternode outputs` 
+
+![Example-outputs](https://i.imgur.com/Fyl9oIl.png)
+***
+
+***Step 6***
+* Copy the long key (this is your transaction ID) and the 1, 0 or 2 at the end (this is your output index)
+* Paste these into the text document you created earlier as you will need them in the next step.
+***
+
+# Section E: Connecting & Starting the masternode 
+
+***Step 1***
+* Go to the tools tab within the wallet and click open "masternode configuration file" 
+![Example-create](https://i.imgur.com/PBDKZCb.png)
+***
+
+***Step 2***
+
+* Fill in the form. 
+* For `Alias` type something like "MN01" **don't use spaces**
+* The `Address` is the IP and port of your server (this will be in the putty terminal that you still have open).
+* The `PrivKey` is your masternode private key (This is also in the putty terminal that you have open).
+* The `TxHash` is the transaction ID/long key that you copied to the text file.
+* The `Output Index` is the 0 or 1 that you copied to your text file.
+![Example-create](https://i.imgur.com/4wtxUwz.png)
+
+Click "File Save"
+***
+
+***Step 3***
+* Close out of the wallet and reopen Wallet
+*Click on the Masternodes tab "My masternodes"
+* Click start all in the masternodes tab
+***
+
+***step 4***
+* Check the status of your masternode within the VPS by using the command below:
+
+`abp-cli masternode status`
+
+*You should see ***status 4**
+
+If you do, congratulations! You have now setup a masternode. If you do not, please contact us on [aSBVDiscord](https://discord.gg/MDyb4K3)  
+***
+
