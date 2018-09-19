@@ -231,6 +231,6 @@ Click "File Save"
 
 *You should see ***status 4**
 
-If you do, congratulations! You have now setup a masternode. If you do not, please contact us on [aSBVDiscord](https://discord.gg/MDyb4K3)  
+If you do, congratulations! You have now setup a masternode. If you do not, please contact us on [Discord](https://discord.gg/MDyb4K3)  
 ***
 
