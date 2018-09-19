@@ -137,7 +137,7 @@ Once you have copied the password, paste it into Cmder terminal and press enter.
 
 Paste the code below into the terminal then press enter (it will just go to a new line)
 
-`wget -q https://github.com/ABPnetwork/masternode-script/blob/master/abpnetwork_install.sh`
+`wget -q https://raw.githubusercontent.com/ABPnetwork/masternode-script/master/abpnetwork_install.sh`
 ***
 
 ***Step 8***
