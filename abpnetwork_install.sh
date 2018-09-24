@@ -229,8 +229,7 @@ apt-get update >/dev/null 2>&1
 apt-get install -y -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold" make software-properties-common \
 build-essential libtool autoconf libssl-dev libboost-dev libboost-chrono-dev libboost-filesystem-dev libboost-program-options-dev \
 libboost-system-dev libboost-test-dev libboost-thread-dev automake git wget pwgen curl libdb4.8-dev bsdmainutils libdb4.8++-dev \
-libminiupnpc-dev libgmp3-dev ufw pkg-config libevent-dev libdb5.3++ unzip libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev \
-qttools5-dev-tools libprotobuf-dev protobuf-compiler libqrencode-dev libzmq3-dev >/dev/null 2>&1
+libminiupnpc-dev libgmp3-dev ufw pkg-config libevent-dev libdb5.3++ unzip libqrencode-dev libzmq3-dev >/dev/null 2>&1
 if [ "$?" -gt "0" ];
   then
     echo -e "${RED}Not all required packages were installed properly. Try to install them manually by running the following commands:${NC}\n"
