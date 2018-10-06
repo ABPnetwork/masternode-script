@@ -189,7 +189,7 @@ clear
 function important_information() {
  echo
  echo -e "Congratulations you just updated your VPS"
- echo -e "Please Check with Rhenium-cli masternode status that your MN is running properly"
+ echo -e "Please Check with abp-cli masternode status that your MN is running properly"
  echo -e "If you have status 4, there is nothing to be done"
  
  clear
