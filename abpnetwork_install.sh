@@ -10,7 +10,7 @@ COIN_CLI='abp-cli'
 COIN_TX='abp-tx'
 COIN_PATH='/usr/local/bin/'
 #COIN_REPO='Place Holder'
-COIN_TGZ='https://github.com/ABPnetwork/ABP/releases/download/3.1.99/abp-3.1.99.tar.gz'
+COIN_TGZ='https://github.com/ABPnetwork/ABP/releases/download/3.2.00/abp-3.2.00.tar.gz'
 COIN_NAME='ABP'
 COIN_PORT=5427
 RPC_PORT=5426
@@ -28,7 +28,7 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   compile_error
-  tar xvzf abp-3.1.99.tar.gz >/dev/null 2>&1
+  tar xvzf abp-3.2.00.tar.gz >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   compile_error
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
