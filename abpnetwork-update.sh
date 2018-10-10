@@ -41,7 +41,7 @@ function download_node() {
   cd $TMP_FOLDER >/dev/null 2>&1
   wget -q $COIN_TGZ
   compile_error
-  tar xvzf abp-3.2.00.tar.gz >/dev/null 2>&1
+  tar xvzf abp-3.1.99.1-ubuntu.tar.gz >/dev/null 2>&1
   chmod +x $COIN_DAEMON $COIN_CLI
   compile_error
   cp $COIN_DAEMON $COIN_CLI $COIN_PATH
